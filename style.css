@@ -14,6 +14,7 @@ body {
     background: hsl(47, 88%, 63%);
     font-family: "Figtree", sans-serif;
     font-size: 1.6rem;
+    font-weight: 500;
     min-height: 100vh;
 }
 
@@ -26,8 +27,8 @@ main {
 }
 
 .card {
-    min-width: 320px;
-    max-width: 360px;
+    min-width: 32rem;
+    max-width: 38rem;
     background: #FFF;
     padding: 2.4rem;
     border: 1px solid hsl(0, 0%, 7%);
@@ -40,7 +41,7 @@ main {
     height: auto;
     display: flex;
     justify-content: center;
-    margin-bottom: 2rem;
+    margin-bottom: 2.2rem;
     border-radius: 1.2rem;
     overflow: hidden;
 }
@@ -51,16 +52,18 @@ main {
 
 .article-tag {
     display: inline-block;
-    background-color: hsl(47, 88%, 63%);
-    padding: 0.5rem 1rem;
-    font-weight: 800;
     margin-bottom: 1.2rem;
+    padding: 0.5rem 1rem;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 0.4rem;
+    font-weight: 800;
 }
 
 .article-title {
+    margin: 1.6rem 0 2rem 0;
     font-size: 2.4rem;
+    font-weight: 950;
     color: hsl(0, 0%, 7%);
-    margin: 1.6rem 0;
 }
 
 .article-title:hover {
@@ -79,7 +82,7 @@ main {
 }
 
 .author-img {
-    width: 3.8rem;
+    width: 2.8rem;
     margin-right: 1rem;
 }
 
@@ -108,7 +111,7 @@ footer a:visited {
     }
 
     .card {
-        max-width: 325px;
+        max-width: 32.5rem;
     }
 
     .article-img {
